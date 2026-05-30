@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/css-cadastro.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--    Div Pricial    -->
+    <div class="container">
+        <div class="caixa-do-cadastro">
+            <div class="titulos">
+                <h1 class="titulo-cadastro">Cadastrar-se</h1>
+                <h2 class="formulario-reqs">Este formulario deve ser preenchido com as informa&ccedil;&otilde;es pessoais</h2>
+            </div>
+
+            <form method="post" class="formulario" autocomplete="off">
+                <div class="divs">
+                    <label for="inome">Nome Completo</label>
+                    <input class="inputs" type="text" name="nome" id="inome" required placeholder="Minimo 5 caracteres"
+                        minlength="5">
+                </div>
+
+                <div class="divs">
+                    <label for="iidade">Idade</label>
+                    <input class="inputs" type="number" name="idade" id="iidade" required placeholder="minimo 14 anos"
+                        min="14" step="1">
+                </div>
+
+                <div class="divs">
+                    <label for="iemail">Email</label>
+                    <input class="inputs" type="email" name="email" id="iemail" required placeholder="exemplo@gmail.com"
+                        autocomplete="on">
+                </div>
+
+                <div class="divs">
+                    <label for="isenha">Senha</label>
+                    <input class="inputs" type="password" name="senha" id="isenha" required
+                        placeholder="minimo 8 caracteres" minlength="8">
+                </div>
+
+                <div class="enviar">
+                    <input class="btn-enviar" type="submit" value="Confirmar">
+                </div>
+            </form>
+
+            <div class="div-login">
+                <a class="link-login" href="../pages/login.html">
+                    <p>Tem uma Conta?</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
