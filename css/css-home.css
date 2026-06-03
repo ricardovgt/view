@@ -7,9 +7,11 @@
 }
 
 .secao-pai {
-    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
     background-color: rgb(218, 224, 223);
     display: flex;
+    flex-direction: column;
 }
 
 /* Cabecalho */
@@ -18,7 +20,7 @@
     backdrop-filter: blur(13px);
     background-color: rgba(55, 243, 133, 0.192);
 
-    padding: 10px 25px 10px;
+    padding: 20px 4% 20px;
     position: fixed;
     z-index: 100;
     top: 0;
@@ -28,6 +30,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    a{
+        text-decoration: none;
+    }
 
     h2 {
         color: rgba(0, 15, 46, 0.719);
@@ -53,7 +59,7 @@
     a {
         color: rgba(0, 26, 82, 0.671);
 
-        padding: 0px 10px 0px;
+        padding: 0px 8px 0px;
         text-decoration: none;
     }
 }
@@ -68,6 +74,13 @@
     transition: 0.2s ease;
 }
 
+.ver-conta svg {
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
 .lista-nav li:hover {
     transform: scale(1.1);
 }
@@ -78,17 +91,18 @@
 
 /* Seção */
 
-.parte-inicial{
+.parte-inicial {
     background-image: linear-gradient(180deg, rgb(113, 236, 164), rgb(147, 236, 191), rgba(143, 255, 208, 0.568), rgba(160, 255, 223, 0));
 
     display: flex;
     width: 100%;
-    height: 300px;
+    height: 400px;
+    padding: 85px 64px 80px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
-.bem-vindo-estude{
+.bem-vindo-estude {
     color: rgba(0, 22, 37, 0.966);
 
     align-items: center;
@@ -96,8 +110,17 @@
     text-align: center;
 }
 
-.span-bv{
-    color: rgba(38, 0, 255, 0.568);
+.bem-vindo {
+    font-size: 45px;
 }
 
-/* Main */
+.estude {
+    font-size: 16px;
+}
+
+.span-bv {
+    color: rgba(38, 0, 255, 0.767);
+}
+
+/* Conteudo */
+
