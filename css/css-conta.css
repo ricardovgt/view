@@ -1,0 +1,122 @@
+.secao-pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Começo da conta */
+
+.secao-conta {
+    background-image: linear-gradient(rgba(207, 229, 222, 0.774), rgba(216, 243, 234, 0.774), rgba(235, 247, 243, 0.842));
+    box-shadow: 0px 10px 10px 0px rgba(0, 10, 24, 0.411);
+
+    height: 490px;
+    width: 550px;
+    margin: 60px 0px 0px 0px;
+    border-radius: 20px;
+}
+
+.informacoes-conta {
+    height: 300px;
+    width: 100%;
+}
+
+.div-ifn-ct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 100%;
+}
+
+.inf-conta-titulo {
+    color: rgba(0, 37, 25, 0.966);
+
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.informacoes-container {
+    color: rgba(0, 37, 14, 0.712);
+
+    display: flex;
+    flex-direction: column;
+    padding: 0px 32px 0px;
+    height: 200px;
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+    font-size: 13px;
+    font-weight: 450;
+    letter-spacing: 1.5px;
+    gap: 16px;
+
+    hr {
+        color: rgba(0, 33, 59, 0.356);
+    }
+
+    span {
+        color: rgba(0, 26, 15, 0.897);
+
+        font-weight: 650;
+        font-size: 16px;
+    }
+}
+
+.dado-grupo {
+    font-size: 14px;
+    padding-bottom: 4px;
+    font-weight: 600;
+}
+
+fieldset {
+    background-color: rgba(127, 255, 180, 0.315);
+    border: 2px solid rgba(24, 255, 120, 0.651);
+
+    padding: 0px 16px 0px;
+    border-radius: 20px;
+
+    p {
+        padding: 0px 16px 6px;
+    }
+}
+
+.classe-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 100%;
+}
+
+.btn-excluir {
+    background-color: rgba(255, 17, 0, 0);
+    color: rgba(255, 17, 0, 0.966);
+    border: 2px solid rgba(172, 0, 0, 0.932);
+
+    border-radius: 8px;
+    margin: 100px 0px 0px 0px;
+    padding: 10px 20px 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.btn-excluir:hover {
+    border: 3px solid rgba(129, 4, 0, 0.959);
+    color: rgba(99, 7, 0, 0.966);
+    background-color: rgba(253, 66, 9, 0.205);
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px 0px rgba(168, 22, 0, 0.89);
+    font-weight: 800;
+}
+
+.btn-excluir:focus {
+    background-color: rgba(253, 66, 9, 0.562);
+    color: rgba(43, 3, 0, 0.897);
+    border: 3px solid rgba(116, 4, 0, 0.959);
+    box-shadow: 0px 5px 10px 0px rgba(168, 22, 0, 0.89);
+}

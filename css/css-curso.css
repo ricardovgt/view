@@ -1,0 +1,110 @@
+.caixa-c-dt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-detalhes {
+    background-image: linear-gradient(-15deg, rgba(30, 112, 122, 0.719), rgba(48, 160, 136, 0.747), rgba(98, 216, 190, 0.733), rgba(92, 241, 145, 0.829));
+    box-shadow: 0px 3px 10px 0px rgba(0, 10, 24, 0.603);
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    margin: 60px 0px 0px 0px;
+    height: 500px;
+    width: 60%;
+    padding: 24px;
+}
+
+/* Pagina Curso */
+
+.descricao-bloco {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.titulo-imagem {
+    height: 230px;
+    width: 230px;
+    margin: 0px 32px 16px 0px;
+}
+
+.img-curso {
+    width: 230px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+.bloco-des-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.div-titulo-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.div-des-curso {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    hr {
+        color: rgba(8, 180, 109, 0.473);
+    }
+}
+
+.titulo-curso {
+    color: rgba(0, 11, 24, 0.918);
+
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.sobre-curso {
+    color: rgba(0, 37, 23, 0.808);
+
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.descricao {
+    color: rgba(0, 22, 37, 0.473);
+
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.paragrafo-des-curso {
+    color: rgba(0, 31, 37, 0.644);
+
+    font-size: 16px;
+    font-weight: 550;
+
+    .curso-t-c {
+        color: rgba(0, 37, 23, 0.904);
+
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+.div-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+}
+
+.btn-matricular-me{
+    
+}

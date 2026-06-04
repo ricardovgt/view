@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhes do Curso</title>
+    <link rel="stylesheet" href="../css/css-home.css">
+    <link rel="stylesheet" href="../css/css-curso.css">
+    <link rel="stylesheet" href="../css/css-cursos.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="secao-pai">
+
+        <!-- Cabecalho -->
+
+        <header class="cabecalho">
+            <a href="../pages/home.html" class="net-cursos">
+                <h2>Net Cursos</h2>
+            </a>
+
+            <nav>
+                <ul class="lista-nav">
+                    <li>
+                        <a href="cursos.html">Cursos</a>
+                    </li>
+                    <li>
+                        <a href="meus_cursos.html">Meus Cursos</a>
+                    </li>
+                    <li>
+                        <a href="conta.html"><button class="ver-conta">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="icon-user">
+                                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                Conta
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Pagina Curso -->
+
+        <section class="caixa-c-dt">
+            <div class="container-detalhes" id="container-detalhes-curso">
+
+                <div class="descricao-bloco">
+                    <div class="titulo-imagem">
+                        <img class="img-curso" id="curso-imagem"
+                            src="https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-svg-download-png-3030224.png?f=webp"
+                            alt="Imagem do curso">
+                    </div>
+
+                    <div class="bloco-des-info">
+                        <div class="div-titulo-desc">
+                            <h1 class="titulo-curso" id="curso-titulo">A carregar...</h1>
+                            <h3 class="sobre-curso">Sobre o curso:</h3>
+                            <p class="descricao" id="curso-descricao"></p>
+                        </div>
+
+                        <div class="div-des-curso">
+                            <hr>
+                            <p class="paragrafo-des-curso">Carga Hor&aacute;ria: <span class="curso-t-c"
+                                    id="curso-carga-horaria">0</span>
+                                horas
+                            </p>
+
+                            <p class="paragrafo-des-curso">Alunos Matriculados: <span class="curso-t-c"
+                                    id="curso-total-alunos">0</span>
+                                alunos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="div-botao">
+                    <button class="ver-detalhes-curso" id="btn-matricular">Matricular-me</button>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <script src="../js/curso.js"></script>
+</body>
+
+</html>

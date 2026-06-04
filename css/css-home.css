@@ -7,9 +7,10 @@
 }
 
 .secao-pai {
+    background-image: linear-gradient(rgb(192, 211, 204), rgb(167, 207, 223), rgb(78, 124, 167));
+
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(218, 224, 223);
     display: flex;
     flex-direction: column;
 }
@@ -18,7 +19,7 @@
 
 .cabecalho {
     backdrop-filter: blur(13px);
-    background-color: rgba(55, 243, 133, 0.192);
+    background-color: rgba(85, 243, 151, 0.411);
 
     padding: 20px 4% 20px;
     position: fixed;
@@ -38,7 +39,7 @@
     h2 {
         color: rgba(0, 15, 46, 0.719);
 
-        font-size: 22px;
+        font-size: 26px;
         font-style: oblique;
     }
 }
@@ -49,7 +50,7 @@
     display: flex;
     list-style: none;
     gap: 30px;
-    font-size: 12px;
+    font-size: 14px;
     list-style-type: none;
 
     li {
@@ -71,6 +72,7 @@
     border-radius: 20px;
     border: none;
     padding: 1px 10px 1px;
+    cursor: pointer;
     transition: 0.2s ease;
 }
 
